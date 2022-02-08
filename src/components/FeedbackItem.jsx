@@ -1,11 +1,10 @@
 import { useState } from 'react';
 
-function FeedbackItem() {
-	const [] = useState();
+function FeedbackItem({ item }) {
 	return (
 		<div className="card">
-			<div className="num-display">10</div>
-			<div className="text-display">This is some text</div>
+			<div className="num-display">{item.rating}</div>
+			<div className="text-display">{item.text}</div>
 		</div>
 	);
 }
