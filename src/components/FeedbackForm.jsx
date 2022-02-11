@@ -27,6 +27,7 @@ function FeedbackForm() {
 						Send
 					</Button>
 				</div>
+				{msg && <div className="message">{msg}</div>}
 			</form>
 		</Card>
 	);
