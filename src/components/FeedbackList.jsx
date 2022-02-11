@@ -9,8 +9,13 @@ function FeedbackList({ feedback, handleDelete }) {
 		<div className="feedback-list">
 			<animatePresence>
 				{feedback.map((item) => (
-					
-					<FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />
+					<motion.div>
+						<FeedbackItem
+							key={item.id}
+							item={item}
+							handleDelete={handleDelete}
+						/>
+					</motion.div>
 				))}
 			</animatePresence>
 		</div>
