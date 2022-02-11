@@ -14,6 +14,8 @@ function FeedbackForm() {
 		} else if (text !== '' && text.trim().length <= 10) {
 			setMsg('Text must be atleast 10 characters long');
 			setBtnDisabled(true);
+		} else {
+			setMsg(null);
 		}
 		setText(e.target.value);
 	};
