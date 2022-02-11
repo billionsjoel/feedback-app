@@ -1,5 +1,5 @@
 function FeedbackStats() {
-	return <div>FeedbackStats</div>;
+	return <div>Stats</div>;
 }
 
 export default FeedbackStats;
