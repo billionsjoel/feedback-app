@@ -25,7 +25,7 @@ function FeedbackForm() {
 
 	return (
 		<Card>
-			<form>
+			<form onSubmit={handleSubmit}>
 				<h2>How would you rate your service with us ?</h2>
 				<RatingSelect
 					select={(rating) => {
