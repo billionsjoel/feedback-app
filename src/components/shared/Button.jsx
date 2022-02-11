@@ -1,5 +1,9 @@
 function Button({ children, version, type, isDasabled }) {
-	return <div>Button</div>;
+	return (
+		<button  >
+			{children}
+		</button>
+	);
 }
 
 export default Button;
