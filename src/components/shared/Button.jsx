@@ -8,7 +8,7 @@ function Button({ children, version, type, isDasabled }) {
 
 Button.defaultProps = {
   version: 'primary',
-   
+   type: 'button',
 };
 
 export default Button;
