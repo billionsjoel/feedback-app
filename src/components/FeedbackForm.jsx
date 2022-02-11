@@ -5,6 +5,7 @@ import Button from './shared/Button';
 function FeedbackForm() {
 	const [text, setText] = useState('');
 	const [btn, setBtnDisabled] = useState(true);
+	const [msg, setMsg] = useState('');
 
 	const handleTextChange = (e) => {
 		setText(e.target.value);
