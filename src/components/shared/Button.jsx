@@ -1,6 +1,6 @@
 function Button({ children, version, type, isDasabled }) {
 	return (
-		<button type={type}  >
+		<button type={type} disabled={isDasabled} >
 			{children}
 		</button>
 	);
