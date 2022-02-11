@@ -8,6 +8,7 @@ function FeedbackForm() {
 				{/*@todo - rating select component */}
 				<div className="input-group">
 					<input type="text" placeholder="Write a review" />
+					<button type="submit"></button>
 				</div>
 			</form>
 		</Card>
