@@ -1,3 +1,4 @@
+import { motion, animatePresence } from 'framer-motion';
 import FeedbackItem from './FeedbackItem';
 
 function FeedbackList({ feedback, handleDelete }) {
