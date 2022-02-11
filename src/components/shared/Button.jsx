@@ -19,7 +19,7 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
   version: PropTypes.string,
   type: PropTypes.string,
-
+  isDasabled: PropTypes.bool,
 }
 
 export default Button;
