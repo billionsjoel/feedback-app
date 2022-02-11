@@ -4,9 +4,12 @@ import Button from './shared/Button';
 
 function FeedbackForm() {
 	const [text, setText] = useState('');
+	const [btn, setBtnDisabled] = useState(true);
+
 	const handleTextChange = (e) => {
 		setText(e.target.value);
 	};
+
 	return (
 		<Card>
 			<form>
