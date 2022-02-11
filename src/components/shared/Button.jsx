@@ -1,4 +1,4 @@
-function Button({children, version}) {
+function Button({ children, version, type, isDasabled }) {
 	return <div>Button</div>;
 }
 
