@@ -4,7 +4,7 @@ import Button from './shared/Button';
 
 function FeedbackForm() {
 	const [text, setText] = useState('');
-	const [btn, setBtnDisabled] = useState(true);
+	const [btnDisabled, setBtnDisabled] = useState(true);
 	const [msg, setMsg] = useState('');
 
 	const handleTextChange = (e) => {
@@ -23,7 +23,9 @@ function FeedbackForm() {
 						placeholder="Write a review"
 						value={text}
 					/>
-					<Button type="submit">Send</Button>
+					<Button type="submit" isDasabled={btnDisabled}>
+						Send
+					</Button>
 				</div>
 			</form>
 		</Card>
