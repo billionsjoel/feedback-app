@@ -3,6 +3,9 @@ import Card from './shared/Card';
 
 function FeedbackForm() {
 	const [text, setText] = useState('');
+	const handleTextChange = (e) => {
+		console.log(e.target.value);
+	};
 	return (
 		<Card>
 			<form>
