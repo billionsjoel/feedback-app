@@ -30,7 +30,7 @@ function FeedbackForm({ handleAdd }) {
 				text,
 				rating,
 			};
-    
+      handleAdd(newFeedback);
 
 		}
 	};
