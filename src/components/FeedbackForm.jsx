@@ -8,6 +8,10 @@ function FeedbackForm() {
 	const [msg, setMsg] = useState('');
 
 	const handleTextChange = (e) => {
+		if (text === '') {
+			setBtnDisabled(true);
+			setMsg(null);
+		}
 		setText(e.target.value);
 	};
 
