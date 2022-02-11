@@ -30,6 +30,7 @@ function FeedbackForm() {
 				text,
 				rating,
 			};
+			console.log(newFeedback);
 		}
 	};
 
