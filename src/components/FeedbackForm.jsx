@@ -25,6 +25,8 @@ function FeedbackForm() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		if (text.trim().length > 10) {
+		}
 	};
 
 	return (
