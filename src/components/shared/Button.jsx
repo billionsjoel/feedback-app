@@ -15,4 +15,11 @@ Button.defaultProps = {
    isDasabled: false,
 };
 
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  
+
+
+}
+
 export default Button;
