@@ -30,8 +30,8 @@ function FeedbackForm({ handleAdd }) {
 				text,
 				rating,
 			};
-      handleAdd(newFeedback);
-
+			handleAdd(newFeedback);
+			setText('');
 		}
 	};
 
