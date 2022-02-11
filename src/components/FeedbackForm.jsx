@@ -23,6 +23,10 @@ function FeedbackForm() {
 		setText(e.target.value);
 	};
 
+	const handleSubmit = (e) => {
+		e.preventDefault();
+	};
+
 	return (
 		<Card>
 			<form onSubmit={handleSubmit}>
