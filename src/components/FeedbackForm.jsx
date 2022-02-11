@@ -11,7 +11,9 @@ function FeedbackForm() {
 		if (text === '') {
 			setBtnDisabled(true);
 			setMsg(null);
-		} else if (text !== '' && text.trim().length <= 10) {
+    } else if (text !== '' && text.trim().length <= 10)
+    {
+      	setBtnDisabled(true);
 		}
 		setText(e.target.value);
 	};
