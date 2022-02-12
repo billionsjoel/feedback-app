@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 function AboutLinkIcon() {
 	return (
 		<div className="about-link">
-			<a href="/about">
+			<Link to="/about">
 				<FaQuestionCircle size={30} />
-			</a>
+			</Link>
 		</div>
 	);
 }
