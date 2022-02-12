@@ -43,6 +43,7 @@ function App() {
 					></Route>
 					<Route path="/about" element={<AboutPage />} />
 				</Routes>
+				<AboutLinkIcon />
 			</div>
 		</Router>
 	);
