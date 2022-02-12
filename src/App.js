@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
+import { BrowserRouter } from 'react-router-dom';
 import { useState } from 'react';
 import Header from './components/Header';
 import FeedbackList from './components/FeedbackList';
@@ -27,7 +28,6 @@ function App() {
 				<FeedbackForm handleAdd={addFeedback} />
 				<FeedbackStats feedback={feedback} />
 				<FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
-				<AboutPage />
 			</div>
 		</>
 	);
