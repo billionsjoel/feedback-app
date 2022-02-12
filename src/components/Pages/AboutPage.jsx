@@ -1,5 +1,13 @@
+import Card from '../shared/Card';
+
 function AboutPage() {
-	return <div>AboutPage</div>;
+	return (
+		<Card>
+			<div className="about">
+				<h1>About this page </h1>
+			</div>
+		</Card>
+	);
 }
 
 export default AboutPage;
