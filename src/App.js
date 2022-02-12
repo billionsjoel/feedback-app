@@ -25,7 +25,7 @@ function App() {
 		<Router>
 			<Header />
 			<div className="container">
-				<Route path="/">
+				<Route exact path="/">
 					<FeedbackForm handleAdd={addFeedback} />
 					<FeedbackStats feedback={feedback} />
 					<FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
