@@ -1,4 +1,5 @@
 import Card from '../shared/Card';
+import { Link } from 'react-router-dom';
 
 function AboutPage() {
 	return (
