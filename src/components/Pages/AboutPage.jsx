@@ -5,6 +5,7 @@ function AboutPage() {
 		<Card>
 			<div className="about">
 				<h1>About this page </h1>
+				<p>This is a react app router test</p>
 			</div>
 		</Card>
 	);
