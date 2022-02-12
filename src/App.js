@@ -28,7 +28,7 @@ function App() {
 				<FeedbackForm handleAdd={addFeedback} />
 				<FeedbackStats feedback={feedback} />
 				<FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
-				<Route path="/about">This is the about page</Route>
+				<Route path="/about" component={AboutPage} />
 			</div>
 		</Router>
 	);
