@@ -2,7 +2,9 @@ import { FaQuestionCircle } from 'react-icons/fa';
 function AboutLinkIcon() {
 	return (
 		<div className="about-link">
-			<FaQuestionCircle size={30} />
+			<a href="/about">
+				<FaQuestionCircle size={30} />
+			</a>
 		</div>
 	);
 }
