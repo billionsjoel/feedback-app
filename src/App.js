@@ -31,7 +31,7 @@ function App() {
 						<FeedbackStats feedback={feedback} />
 						<FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
 					</Route>
-					<Route path="/about" component={AboutPage} />
+					<Route path="/about" element={<AboutPage />} />
 				</Routes>
 			</div>
 		</Router>
