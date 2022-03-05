@@ -16,3 +16,5 @@ export const feedBackProvider = (children) => {
 		</feedBackContext.Provider>
 	);
 };
+
+export default feedBackContext;
