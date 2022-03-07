@@ -9,7 +9,9 @@ export const FeedbackProvider = ({ children }) => {
 			text: 'This item is from context',
 			rating: 10,
 		},
-	]);
+  ]);
+
+  setFeedBack();
 	return (
 		<FeedbackContext.Provider value={{ feedback }}>
 			{children}
