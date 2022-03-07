@@ -1,8 +1,8 @@
 import { createContext, useState } from 'react';
 
-const feedBackContext = createContext();
+const FeedbackContext = createContext();
 
-export const FeedbackProvider = (children) => {
+export const FeedbackProvider = ({ children }) => {
 	const [feedback, setFeedBack] = useState([
 		{
 			id: 1,
@@ -11,10 +11,10 @@ export const FeedbackProvider = (children) => {
 		},
 	]);
 	return (
-		<feedBackContext.Provider value={{ feedback }}>
+		<FeedbackContext.Provider value={{ feedback }}>
 			{children}
-		</feedBackContext.Provider>
+		</FeedbackContext.Provider>
 	);
 };
 
-export default feedBackContext;
+export default FeedbackContext;
